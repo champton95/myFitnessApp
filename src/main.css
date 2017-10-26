@@ -1,0 +1,71 @@
+li {
+    z-index: 2;
+}
+ul{
+    position:relative;
+    left:-15px;
+}
+#feedControl {
+    margin-top : 20px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #FBFBFB;
+}
+#feedControl li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #E0E0E0;
+}
+#feedControl a{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(85, 183, 221);
+    //box-shadow:2px 0 0 #000, -2px 0 0 #000;
+    padding: 5px 0;
+}
+#feedControl b{
+    font-size: 14px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item{
+    border: 1px solid rgb(85, 183, 221);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#list {
+    height: 90%;
+    background-color: #F0F0F0;
+    border: 1px solid #000;
+}
+#list.border {
+    border: 2px solid #000
+}
+#navbarNav a{
+    color: white;
+    background-color: black;
+}
+#home .nav-item #home-link, #fitTrack .nav-item #fitTrack-link, #about .nav-item #about-link {
+    font-weight: bold;
+}
+.container{
+    padding-top: 10px;
+}
+#calrow{
+    margin-top: 20px;
+}
+#calrow .col{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#caldaybox{
+    border: 1px solid black;
+    padding-bottom: 90px;
+}
+#calday{
+    border-bottom: 3px solid black;
+    padding-left: 5px;
+}
