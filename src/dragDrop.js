@@ -3,9 +3,9 @@ $(document).ready(function(){
     $('.item').click(function(){
         
             contents = $(this).text();
-            setDate = prompt("What time did you perform this exercise?", "12pm");
+            setTime = prompt("What time did you perform this exercise?", "12pm");
         
-            $('#list').append(contents + ' @ ' + setDate + '<br />');
+            $('#list').append(contents + ' @ ' + setTime + '<br />');
         
     });
     /*

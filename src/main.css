@@ -26,7 +26,7 @@ ul{
     padding: 5px 0;
 }
 #feedControl b{
-    font-size: 14px;
+    font-size: 10px;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -35,6 +35,7 @@ ul{
     border: 1px solid rgb(85, 183, 221);
     margin-top: 10px;
     padding-left: 10px;
+    cursor: pointer;
 }
 #list {
     height: 90%;

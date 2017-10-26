@@ -14,7 +14,7 @@
         limit: null,
         key: null,
         layoutTemplate: '<ul>{entries}</ul>',
-        entryTemplate: '<li><a href="{url}">{title}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </a><br/><b>[{date}]</b><br/>{shortBodyPlain}</li>',
+        entryTemplate: '<li><a href="{url}">{title}&nbsp;    </a><br/><b>posted: {date}</b><br/>{shortBodyPlain}</li>',
         tokens: {},
         outputMode: 'json',
         dateFormat: 'dddd MMM Do',
