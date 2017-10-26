@@ -8,6 +8,7 @@ $(function(){
     });
 
     $("#calendar-placeholder").load("src/_cal.html");
+    $("#footer-placeholder").load("src/_footer.html");
     
     $(".btn-primary").click(function(){
         $(this).closest(".col").css({ 'max-width': 'none' })
