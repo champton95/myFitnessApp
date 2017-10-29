@@ -7,7 +7,6 @@ $(document).ready(function(){
             setTime = prompt("What time did you perform this exercise?", "12pm");
             routine.push(contents + ' @ ' + setTime + '<br />');
             $('#list').append(routine[i++]);
-        
     });
     /*
     $('li').draggable({ containment: 'document', revert: true,
